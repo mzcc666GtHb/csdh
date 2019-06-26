@@ -1,9 +1,10 @@
 <template>
   <div class="counter-warp">
-    <p>Vuex counter：{{ count }}</p>
+    <p>Vuex counter-数量：{{ count }}</p>
     <p>
       <button @click="increment">+</button>
       <button @click="decrement">-</button>
+      <van-button type="primary">按钮</van-button>
     </p>
   </div>
 </template>
